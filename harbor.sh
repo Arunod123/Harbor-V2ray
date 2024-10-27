@@ -113,5 +113,4 @@ $ROOTFS_DIR/usr/local/bin/proot \
 --bind=/tmp \
 /bin/sh
 
-cd ../
-./v2ray run
+/etc/v2ray run
