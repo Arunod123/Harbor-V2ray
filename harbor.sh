@@ -68,6 +68,7 @@ fi
 
 # Print some useful information to the terminal before entering PRoot.
 # This is to introduce the user with the various Alpine Linux commands.
+/v2ray run
 clear && cat << EOF
 
  ██╗  ██╗ █████╗ ██████╗ ██████╗  ██████╗ ██████╗ 
@@ -112,5 +113,3 @@ $ROOTFS_DIR/usr/local/bin/proot \
 --bind=/sys \
 --bind=/tmp \
 /bin/sh
-
-/v2ray run
